@@ -1,0 +1,27 @@
+body{
+  background-color: #0267C1;
+  font-size: 32px;
+}
+button{
+  background-color: #D65108;
+  width: 70px;
+  height: 50px;
+  border-radius: 10px;
+  border: solid 2px white;
+  transition: background-color 0.5s, color 0.5s;
+}
+button:hover{
+  color:#D65108;
+  background-color: black;
+}
+.emojiWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p.emoji{
+  font-size: 70px;
+  }
+.none{
+  display: none;
+}
